@@ -9,6 +9,7 @@
 <style>
   .search_bar {
    font-size: 20px;
+   display: block;
    
   }
   .thumbnail {
@@ -16,14 +17,29 @@
     display: block;
 
   }
+  .video-preview {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+    margin-right: 15px;
+  }
  
 </style>
 <body>
   <input class="search_bar" type="text" placeholder="Search">
+  <div class="video-preview">
   <br>
   <img src="/youtube/image/image.png" class="thumbnail" alt="ytthumnail">
   <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
   <p class="video-author">Marques Brownlee</p>
   <p class="video-stats">3.4M views · 6 months ago</p>
+  </div>
+  <div class="video-preview">
+  <br>
+  <img src="/youtube/image/thumbnail-2.webp" class="thumbnail" alt="ytthumnail">
+  <p class="video-title">Try Not To Laugh Challenge #9</p>
+  <p class="video-author">Markiplier</p>
+  <p class="video-stats">19M views · 4 years ago</p>
+  </div>
 </body>
 </html>
