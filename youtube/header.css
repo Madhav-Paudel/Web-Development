@@ -9,6 +9,7 @@
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
     width: 0;
+
   }
   .search_bar::placeholder
   {
@@ -26,6 +27,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background-color: white;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(229, 225, 225);
   }
 
 
